@@ -3,6 +3,7 @@ public class Alpha_Numeric {
 	public static void main(String args[])
 	{
 		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the input");
 	    String in=sc.next();
 	    String num=in.replaceAll("[^0-9]","");
 	   
